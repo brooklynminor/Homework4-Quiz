@@ -1,0 +1,42 @@
+.container.justify-content-middle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#jumbotron::before{
+    content:'';
+    background-image: url(https://theobjectivestandard.com/wp-content/uploads/2018/05/Brooklyn-Bridge.jpg); 
+    opacity: 50%;
+    height:300px;
+    width: 100%;
+    position: absolute;
+    background-position: center;
+    margin-top: -65px;
+
+}
+#jumbotron{
+    content: relative;
+    overflow: hidden;
+    
+}
+.btn.btn-light{
+    color: antiquewhite;
+    margin-bottom: 3px;
+    background-color: rgba(161, 119, 65, 0.459);
+}
+.card{
+    color: grey;
+    margin-top: 50px;
+}
+h1 {
+    position: relative;
+}
+#score-list{
+    text-align: center;
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+#clearAll{
+    width:50%;
+  
+}
