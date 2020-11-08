@@ -31,7 +31,7 @@ The user has 31 seconds to complete the quiz which has an array of four question
 secondsLeft -= 5
 questionNumber++
 ```
-When the response is returned as positive the score increases by 1. 
+When the user's response is returned as positive the score increases by 1 and the next question is displayed. 
 ```
 score++
 questionNumber++
